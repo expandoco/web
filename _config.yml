@@ -1,3 +1,4 @@
 name: Scissr
 markdown: redcarpet
 pygments: true
+baseurl: /
