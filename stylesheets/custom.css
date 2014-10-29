@@ -1,0 +1,35 @@
+nav {
+	display: block;
+	position: absolute;
+	width: 250px;
+	font-weight: bold;
+	top: 250px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+	
+nav li {
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+}
+	
+nav li a {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	text-decoration: none;
+	width: 100%;
+}
+
+html>body nav li a {
+	width: auto;
+}
+
+nav li a:hover {
+
+}

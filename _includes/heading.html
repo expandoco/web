@@ -1,0 +1,11 @@
+<div class="header">
+	<img class="logoimage" src="images/scissr.png"/>	
+    <ul class="nav nav-pills pull-right">
+        {% for p in site.pages %} {% if p.title != "Home" %}
+        <li>
+            <a {% if p.url==page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+        </li>
+        {% endif %} {% endfor %}
+    </ul>
+    <h3 class="text-muted">Scissr</h3>
+</div>
