@@ -1,0 +1,24 @@
+{
+  "name": "expando-web",
+  "version": "0.0.1",
+  "homepage": "expando.co",
+  "authors": [
+    "Fanie Reynders <fanie@reynders.co>"
+  ],
+  "description": "Project website",
+  "keywords": [
+    "expando"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "~0.2.2"
+  }
+}
